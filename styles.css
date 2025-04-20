@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background: #cf8377; /* tom salmão aproximado da imagem */
+  background: #c7974f; /* tom salmão aproximado da imagem */
   color: #000000;
   display: flex;
   justify-content: center;
@@ -67,10 +67,10 @@ p {
 }
 
 
-.whatsapp { background: #c7974f; }
-.instagram { background: #c7974f; }
-.ebook { background: #c7974f; }
-.portifolio { background: #c7974f; }
+.whatsapp { background: #cf8377; }
+.instagram { background: #cf8377; }
+.ebook { background: #cf8377; }
+.portifolio { background: #cf8377; }
 
 .btn:hover {
   filter: brightness(1.1);
