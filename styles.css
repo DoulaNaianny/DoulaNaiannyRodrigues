@@ -62,6 +62,11 @@ p {
   transition: 0.3s ease;
 }
 
+.btn i {
+  margin-right: 8px;
+}
+
+
 .whatsapp { background: #25D366; }
 .instagram { background: #E1306C; }
 .ebook { background: #4285F4; }
