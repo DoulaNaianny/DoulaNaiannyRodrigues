@@ -67,10 +67,10 @@ p {
 }
 
 
-.whatsapp { background: #cf8377; }
-.instagram { background: #000; }
-.ebook { background: #cf8377; }
-.portifolio { background: #000; }
+.whatsapp { background: #c7974f; }
+.instagram { background: #c7974f; }
+.ebook { background: #c7974f; }
+.portifolio { background: #c7974f; }
 
 .btn:hover {
   filter: brightness(1.1);
