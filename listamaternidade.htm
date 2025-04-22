@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista para Maternidade</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="maternity-list">
+  <div class="container">
+    <h1>👜 Lista para Levar à Maternidade</h1>
+    <p>Marque os itens que você já preparou:</p>
+    <ul id="checklist" class="checklist">
+      <li><label><input type="checkbox" value="Documentos"> Documentos da mãe (RG, CPF, carteira do convênio, plano de parto)</label></li>
+      <li><label><input type="checkbox" value="Camisolas"> Camisolas/roupas confortáveis</label></li>
+      <li><label><input type="checkbox" value="Absorventes"> Absorventes para seios e noturnos</label></li>
+      <li><label><input type="checkbox" value="Produtos higiene"> Produtos de higiene pessoal</label></li>
+      <li><label><input type="checkbox" value="Roupas bebê"> Roupas para o bebê (bodies, mijões, macacões)</label></li>
+      <li><label><input type="checkbox" value="Fraldas"> Fraldas RN</label></li>
+      <li><label><input type="checkbox" value="Saída maternidade"> Roupinha de saída da maternidade</label></li>
+    </ul>
+    <button onclick="verificarLista()" class="botao">✔️ Verificar Itens</button>
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
